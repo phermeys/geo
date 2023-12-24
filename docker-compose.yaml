@@ -4,6 +4,6 @@ services:
     container_name: ${NAME}
     image: php:8.0-apache
     volumes:
-      - ${PATH}:/var/www/html/
+      - ${WWWPATH}:/var/www/html/
     ports:
       - ${PORT}:80
